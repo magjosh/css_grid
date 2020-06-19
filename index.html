@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Grids</title>
+
+    <style>
+    .wrapper {
+        display: grid;
+        grid-template-columns: 70% 30%;
+        gap: 1em;
+        }
+        
+        .wrapper > div {
+        background: #eee;
+        padding: 1em;
+        }
+        
+        .wrapper > div:nth-child(odd) {
+        background: #ddd;
+        }
+    </style> 
+</head>
+<body>
+    <div class="wrapper">
+        <div>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam atque quam, nam enim reprehenderit perferendis, dicta nulla repudiandae obcaecati dignissimos ab qui porro, ut culpa? Dolorum, velit? Quaerat architecto numquam saepe inventore quasi recusandae distinctio ea nostrum a quam enim repellat id reiciendis repellendus magnam suscipit quis laboriosam culpa ex, minima voluptates sapiente quidem. Eligendi possimus cupiditate ea natus nam!
+        </div>
+        <div>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis cum, eligendi doloribus incidunt unde fuga optio natus. Mollitia, nihil. Aperiam dolores debitis maiores voluptas sequi tenetur itaque dolorum nemo quasi!
+        </div>
+        <div>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam atque quam, nam enim reprehenderit perferendis, dicta nulla repudiandae obcaecati dignissimos ab qui porro, ut culpa? Dolorum, velit? Quaerat architecto numquam saepe inventore quasi recusandae distinctio ea nostrum a quam enim repellat id reiciendis repellendus magnam suscipit quis laboriosam culpa ex, minima voluptates sapiente quidem. Eligendi possimus cupiditate ea natus nam!
+        </div>
+        <div>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis cum, eligendi doloribus incidunt unde fuga optio natus. Mollitia, nihil. Aperiam dolores debitis maiores voluptas sequi tenetur itaque dolorum nemo quasi!
+        </div>
+        </div>
+</body>
+</html>
